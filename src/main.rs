@@ -13,7 +13,7 @@ fn main() {
         quote: "In a hole in the ground there lived a hobbit.",
     };
 
-    println!("=== Books ===");
+    println!("===== Books =====");
     println!("Book 1");
     println!("Title: {}", book1.title);
     println!("Quote: {}", book1.quote);
@@ -33,7 +33,7 @@ fn main() {
 
     let interesting = most_interesting_word(text, boring_word);
 
-    println!("=== Interesting Word ===");
+    println!("===== Interesting Word =====");
     println!("Text: {}", text);
     println!("Boring word: {}", boring_word);
     println!("Most interesting word: {}", interesting);
